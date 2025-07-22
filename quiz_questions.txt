@@ -1,0 +1,15 @@
+Python Basics|Easy|What is the output of print(2 + 2 * 3)?|8|10|6|12|1|Python follows PEMDAS rules: multiplication before addition
+Python Basics|Easy|Which keyword defines a function in Python?|func|def|fn|function|2|Functions are defined using the 'def' keyword
+Python Basics|Easy|What does type(3.14) return?|int|float|decimal|number|2|Decimal numbers with points are float type
+Python Basics|Easy|How do you comment a single line in Python?|//|#|--|/*|2|Python uses # for single-line comments
+Python Basics|Easy|Which function converts text to uppercase?|upper()|capitalize()|toUpper()|uppercase()|1|string.upper() method does this
+Data Structures|Medium|How do you create an empty set?|{}|set()|[]|()|2|{} creates a dict, use set() for sets
+Data Structures|Medium|What does [1,2,3][::-1] return?|[1,2,3]|[3,2,1]|Error|None|2|[::-1] reverses any sequence
+Data Structures|Medium|What is the time complexity of dict lookup?|O(n)|O(1)|O(log n)|O(n^2)|2|Dictionaries use hash tables for O(1) lookups
+Data Structures|Medium|Which removes duplicates from a list?|list.remove()|set(list)|list.unique()|dedupe(list)|2|Converting to a set removes duplicates
+Data Structures|Medium|What does 'abc'.split('b') return?|['a', 'c']|['a', 'b', 'c']|['ac']|Error|1|Split divides at the specified delimiter
+Advanced|Hard|What is @staticmethod used for?|Memory optimization|Method that doesn't need self|Alternative to __init__|Private method|2|Static methods don't take self/cls parameters
+Advanced|Hard|How do you make a read-only property?|@readonly|@property|@const|@immutable|2|The @property decorator creates getters
+Advanced|Hard|What does __slots__ do?|Speeds up attribute access|Makes class immutable|Prevents inheritance|Enforces typing|1|__slots__ optimizes memory by preventing dict creation
+Advanced|Hard|Which is faster: dict.keys() or list(dict)?|dict.keys()|list(dict)|Same|Depends|3|Modern Python versions optimize both equally
+Advanced|Hard|What does super() do in multiple inheritance?|Calls parent class|Calls all parents|Follows MRO|Calls object|3|Method Resolution Order determines the call sequence
